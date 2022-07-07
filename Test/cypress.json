@@ -1,0 +1,24 @@
+{
+
+	"video": true,
+	"fixturesFolder": "cypress/fixtures",
+	"integrationFolder": "cypress/integration",
+	"pluginsFile": "cypress/plugins/index.js",
+	"screenshotsFolder": "cypress/report/screenshots/",
+	"supportFile": "cypress/support/index.js",
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"charts": false,
+		"html": true,
+		"json": true,
+		"reportDir": "cypress/report/mochawesome-report",
+		"overwrite": true,
+		"inline": true
+	},
+
+  "env": {
+    "url": "https://en-gb.facebook.com/login/device-based/regular/login/?login_attempt=1"
+  }
+
+
+}
